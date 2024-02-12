@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
+.video{
+    margin-left: 50px;
+    width: 640px;
+    height: 550px;
+    margin-top: -60px;
+}
+
+.first-section{
+    background-color: #242bba;
+}
+
+.h3-motivation{
+    color: white;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    margin-right: 130px;
+    width: 400px;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
