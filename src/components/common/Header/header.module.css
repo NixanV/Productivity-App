@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #242582;
 }
 
 .ul-nav li{
@@ -13,7 +12,15 @@
     font-weight: 300;
     font-style: normal;
     font-size: 24px;
+    padding-top: 20px;
    
+}
+
+.nav-bar{
+    height: 80px;
+
+    background-color: #242582;
+    
 }
 
 .ul-nav li a{

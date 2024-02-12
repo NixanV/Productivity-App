@@ -7,7 +7,7 @@ import styles from "./header.module.css";
 export const Header = () => {
     return(
         <header>
-            <nav>
+            <nav className={styles["nav-bar"]}>
                 <ul className={styles["ul-nav"]}>
                     <li>
                         <Link to="/programs">Programs</Link>
