@@ -4,7 +4,7 @@
 .video{
     margin-left: 50px;
     width: 640px;
-    height: 550px;
+    height: 520px;
     margin-top: -60px;
 }
 
@@ -26,4 +26,39 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.left-side-second-section h2{
+    margin-top: 0px;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 52px;
+    position: absolute;
+    top: 180px;
+    left: 130px;
+    text-align: center;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    height: 450px;
+}
+.left-side-second-section{
+    background-color: #CDD5D1;
+    width: 40vw;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal-line{
+    height: 4px;
+    border-radius: 15%;
+    z-index: 4;
+    border: none;
+    background-color: #f64c71;
+    margin: 0px 480px;
+    width: 600px;
+    position: absolute;
 }

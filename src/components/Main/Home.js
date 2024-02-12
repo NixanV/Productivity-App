@@ -19,6 +19,18 @@ export const Home = () =>{
                     </h3>
                 </div>
             </section>
+            <hr className={styles["horizontal-line"]}/>
+            <section className={styles["second-section"]}>
+                <div className={styles["left-side-second-section"]}>
+                    <h2>
+                        Why you need <br/>us?
+                    </h2>
+
+                </div>
+                <div className={styles["right-side-second-section"]}>
+
+                </div>
+            </section>
         </main>
     );
 }
