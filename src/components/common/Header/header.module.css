@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+.ul-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #242582;
+}
+
+.ul-nav li{
+    list-style-type: none;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+   
+}
+
+.ul-nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+  
