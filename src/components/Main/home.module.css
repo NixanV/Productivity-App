@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
 
 
-.video{
+.gif{
     margin-left: 50px;
-    width: 640px;
-    height: 520px;
-    margin-top: -60px;
+    width: 540px;
+    height: 360px;
+    border-radius: 25px;
+}
+
+.right-side-first-section{
+    margin-right: 120px;
+    margin-top: 70px;
+}
+
+.left-side-first-section{
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 500px;
+
 }
 
 .first-section{
@@ -19,13 +31,14 @@
     font-style: normal;
     font-size: 40px;
     margin-right: 130px;
-    width: 400px;
+    width: 500px;
 }
 
 .first-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 500px;
 }
 
 .left-side-second-section h2{
