@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
 
 
 .gif{
@@ -18,6 +19,12 @@
     margin-top: 50px;
     width: 500px;
 
+}
+
+.icons ul li{
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
 }
 
 .first-section{
@@ -74,4 +81,10 @@
     margin: 0px 480px;
     width: 600px;
     position: absolute;
+}
+
+.first-square{
+    background-color: #f96e46;
+    color: #ffffff;
+
 }

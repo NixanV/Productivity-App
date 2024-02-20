@@ -2,7 +2,10 @@ import styles from "./home.module.css"
 import video from "./images/vecteezy_business-concept-in-2d_28379580.mp4";
 import gif from "./images/f4c36571-ff98-412e-acf4-5d6c06de6e7a_rw_1200.gif"
 
+
+
 export const Home = () =>{
+
 
     return(
         <main>
@@ -29,6 +32,11 @@ export const Home = () =>{
                 </div>
                 <div className={styles["right-side-second-section"]}>
                     <div className={styles["first-square"]}>
+                        <div className={styles["icons"]}>
+                            <ul>
+                                <li><i className="fa-solid fa-clock"></i></li>
+                            </ul>
+                        </div>
                         <p>
                             Better time management
                         </p>
