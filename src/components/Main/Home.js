@@ -42,16 +42,33 @@ export const Home = () =>{
                         </p>
                     </div>
                     <div className={styles["second-square"]}> 
+                    <div className={styles["icons"]}>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i></li>
+                            </ul>
+                        </div>
                         <p>
                             Improved productivity
                         </p>
                     </div>
                     <div className={styles["third-square"]}>
+                        <div className={styles["icons"]}>
+                            <ul>
+                                <li><i class="fa-regular fa-hand-point-up"></i></li>
+                            </ul>
+                        </div>
+                    
                         <p>
                             Self-improvement
                         </p>
                     </div>
                     <div className={styles["fourth-square"]}>
+                        <div className={styles["icons"]}>
+                            <ul>
+                                <li><i class="fa-solid fa-heart-pulse"></i></li>
+                            </ul>
+                        </div>
+                    
                         <p>
                             Health improvement
                         </p>
