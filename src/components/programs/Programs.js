@@ -32,9 +32,17 @@ export const Programs = () => {
                         <p className={styles["paragraphs"]}>
                             first schedule
                         </p>
+                        <a
+                        className={styles["a-download"]}
+                        href={excel_table}
+                        download="excel-table"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            
                         <button className={styles["button-go-to"]}>
                             Go to!
                         </button>
+                        </a>
                     </div>
                 </div>
                 <div className={styles["working-second-div"]}>
@@ -45,9 +53,17 @@ export const Programs = () => {
                         <p className={styles["paragraphs"]}>
                             second schedule
                         </p>
+                        <a
+                        className={styles["a-download"]}
+                        href={excel_table}
+                        download="excel-table"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            
                         <button className={styles["button-go-to"]}>
                             Go to!
                         </button>
+                        </a>
                     </div>
                 </div>
                 <div className={styles["working-third-div"]}>
@@ -58,9 +74,17 @@ export const Programs = () => {
                         <p className={styles["paragraphs"]}>
                             third schedule
                         </p>
+                        <a
+                        className={styles["a-download"]}
+                        href={excel_table}
+                        download="excel-table"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
                         <button className={styles["button-go-to"]}>
                             Go to!
                         </button>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -68,19 +92,12 @@ export const Programs = () => {
                 <h3>
                     You didn't find what you want. Let's create program for your time schedule.
                 </h3>
-                <a
-                href={excel_table}
-                download="excel-table"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-
+                
                 <button className={styles["button-create"]}>
                     <span>
                         Create
                     </span>
                 </button>
-                </a>
             </section>
         </body>
         
