@@ -2,8 +2,17 @@ import styles from "./programs.module.css";
 import image_one from "./images/How-to-schedule-TikTok-posts_Artboard-1-copy.jpg";
 import image_two from "./images/51f9d524-5bc9-487e-8ed7-11f6a405b88e_master-schedule.png";
 import image_three from "./images/Project-schedule.webp";
+import excel_table from "./files/data.xlsx"
 
 export const Programs = () => {
+
+    // const handleDownload = () => {
+    //     const link = document.createElement('a');
+    //     link.href = url;
+    //     link.setAttribute("download", "./files/data.xlsx");
+
+    // }
+
     return(
         <body >
             <h2>
@@ -59,11 +68,19 @@ export const Programs = () => {
                 <h3>
                     You didn't find what you want. Let's create program for your time schedule.
                 </h3>
+                <a
+                href={excel_table}
+                download="excel-table"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+
                 <button className={styles["button-create"]}>
                     <span>
                         Create
                     </span>
                 </button>
+                </a>
             </section>
         </body>
         
