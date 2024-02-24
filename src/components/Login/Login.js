@@ -1,3 +1,6 @@
+import styles from "./login.module.css"
+
+
 export const Login = () =>{
     return(
     <div className={styles["container"]}>
@@ -10,11 +13,11 @@ export const Login = () =>{
             </div>
             <form className={styles["card-form"]}>
                 <div className={styles["input"]}>
-                    <input type="text" className={styles["input-field"]} value="Alexander Parkinson" required/>
+                    <input type="text" className={styles["input-field"]} value="" required/>
                     <label className={styles["input-label"]}>Full name</label>
                 </div>
                             <div className={styles["input"]}>
-                    <input type="text" className={styles["input-field"]} value="vlockn@gmail.com" required/>
+                    <input type="text" className={styles["input-field"]} value="" required/>
                     <label className={styles["input-label"]}>Email</label>
                 </div>
                             <div className={styles["input"]}>
