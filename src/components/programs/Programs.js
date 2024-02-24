@@ -55,7 +55,16 @@ export const Programs = () => {
                     </div>
                 </div>
             </section>
-            
+            <section className={styles["create-own"]}>
+                <h3>
+                    You didn't find what you want. Let's create program for your time schedule.
+                </h3>
+                <button className={styles["button-create"]}>
+                    <span>
+                        Create
+                    </span>
+                </button>
+            </section>
         </body>
         
     )
